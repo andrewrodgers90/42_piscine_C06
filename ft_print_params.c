@@ -34,7 +34,7 @@ int	main(int argc, char **argv)
 	while (i < ac)
 	{
 		ft_print_params(argv[i]);
-		write(1, "\nl", 1);
+		write(1, "\n", 1);
 		i++;
 	}
 	return (0);
